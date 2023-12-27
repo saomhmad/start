@@ -114,21 +114,21 @@ async def start(event):
             [Button.inline('اضافة رقـم ✚', 'button1'), Button.inline('حـذف رقـم ⌫', 'delete')],
 	            
 	            [Button.inline('• تعيين البوت •', 'ububo')],
-            [Button.inline('بــــدء التجميع ✓', 'button3'), Button.inline('ايقاف التجميع ✘ ', 'button4')],
-            [Button.inline('تـحويل النقاط ⎋', 'button5'), Button.inline('عــدد الـنـقـاطـ ⏚', 'button6')],
-            [Button.inline('فك الحضر ⦿', 'unblock'), Button.inline('حضر البوت ⨷', 'button21')],
-            [Button.inline('مغادرة القنوات ⎙', 'buttton11'), Button.inline('الهدية اليومية ⚘', 'a6gi2ft')],
-            [Button.inline('⪻ بوت دعمكم ⪼', 'da3mkom')],
-        [Button.inline('رشق تـصـويت ⛥', 'button7'), Button.inline('تـفــعـيل بــوت 〠', 'button8')],
-        [Button.inline('رشـــق قناة ⊕', 'buttton311'), Button.inline('مغادرة قناة ⊖', 'buttton251')],
-        [Button.inline('رشق مشاهدات ⟐', 'buttonn511')],
-        [Button.inline('تحكم خاص ¥', 'btp'), Button.inline('فحص الحسابات ⚚', 'tst')],
+            [Button.inline('بــــدء التجميع ✓', 'button3'), Button.inline('ايقاف التجميع 🎷 ', 'button4')],
+            [Button.inline('تـحويل النقاط 🎮', 'button5'), Button.inline('عــدد الـنـقـاطـ 🎧', 'button6')],
+            [Button.inline('فك الحضر 🧸', 'unblock'), Button.inline('حضر البوت 🎟️', 'button21')],
+            [Button.inline('مغادرة القنوات 🔧', 'buttton11'), Button.inline('الهدية اليومية 💾', 'a6gi2ft')],
+            [Button.inline('⪻ بوت دعمكم ⪼', 'DamKombot')],
+        [Button.inline('رشق تـصـويت 👾', 'button7'), Button.inline('تـفــعـيل بــوت 🖱️', 'button8')],
+        [Button.inline('رشـــق قناة 🧩', 'buttton311'), Button.inline('مغادرة قناة 🔌🎭', 'buttton251')],
+        [Button.inline('رشق مشاهدات ♟️', 'buttonn511')],
+        [Button.inline('تحكم خاص 🎲', 'btp'), Button.inline('فحص الحسابات ⚚', 'tst')],
         [Button.inline('اخر ﹝6﹞ رسائل ⩨', 'f4or3wa1rd'), Button.inline('ارسال رسالة ⛣', 's6e43n6d')],
         [Button.inline('نقر زر شفاف ✧', 'ba4utt2on'), Button.inline('عدد الحسابات ꐕ', "bbuttoon08")],
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
-         [Button.inline('༺ Super Number #1 سوبر ༻', 'button0')]
+         [Button.inline('بـوت تجمـيع ستــار', 'button0')]
         ]
-        await bot.send_message(chat, '''**──╮╭─
+        await bot.send_message(chat, '''**بـوت تجمـيع ستـار
 ╭─╯│┈
 ╰──╰─**''', buttons=buttons)
 
@@ -148,22 +148,22 @@ async def back(event):
 async def back(event):
         buttons = [
            
-            [Button.inline('اضافة رقـم ✚', 'button1'), Button.inline('حـذف رقـم ⌫', 'delete')],
-	            [Button.inline('⬎ اوامر الـتـجـمــيـع ⬐', 'button01')],
+            [Button.inline('اضافة رقـم 📤', 'button1'), Button.inline('حـذف رقـم 📥', 'delete')],
+	            [Button.inline('⬎ اوامر الـتـجـمــيـع ⬐', 'DamKombot')],
 	            [Button.inline('• تعيين البوت •', 'ububo')],
-            [Button.inline('بــــدء التجميع ✓', 'button3'), Button.inline('ايقاف التجميع ✘ ', 'button4')],
-            [Button.inline('تـحويل النقاط ⎋', 'button5'), Button.inline('عــدد الـنـقـاطـ ⏚', 'button6')],
-            [Button.inline('فك الحضر ⦿', 'unblock'), Button.inline('حضر البوت ⨷', 'button21')],
-            [Button.inline('مغادرة القنوات ⎙', 'buttton11'), Button.inline('الهدية اليومية ⚘', 'a6gi2ft')],
-            [Button.inline('⪻ بوت دعمكم ⪼', 'da3mkom')],
-        [Button.inline('رشق تـصـويت ⛥', 'button7'), Button.inline('تـفــعـيل بــوت 〠', 'button8')],
-        [Button.inline('رشـــق قناة ⊕', 'buttton311'), Button.inline('مغادرة قناة ⊖', 'buttton251')],
-        [Button.inline('رشق مشاهدات ⟐', 'buttonn511')],
-        [Button.inline('تحكم خاص ¥', 'btp'), Button.inline('فحص الحسابات ⚚', 'tst')],
-        [Button.inline('اخر ﹝6﹞ رسائل ⩨', 'f4or3wa1rd'), Button.inline('ارسال رسالة ⛣', 's6e43n6d')],
-        [Button.inline('نقر زر شفاف ✧', 'ba4utt2on'), Button.inline('عدد الحسابات ꐕ', "bbuttoon08")],
+            [Button.inline('بــــدء التجميع 👾', 'button3'), Button.inline('ايقاف التجميع 📌 ', 'button4')],
+            [Button.inline('تـحويل النقاط ♟️', 'button5'), Button.inline('عــدد الـنـقـاطـ 📋', 'button6')],
+            [Button.inline('فك الحضر 🎮', 'unblock'), Button.inline('حضر البوت ⚒️', 'button21')],
+            [Button.inline('مغادرة القنوات 📸', 'buttton11'), Button.inline('الهدية اليومية 🧸', 'a6gi2ft')],
+            [Button.inline('⪻ بوت دعمكم 🎶', 'DamKombot')],
+        [Button.inline('رشق تـصـويت 🎧', 'button7'), Button.inline('تـفــعـيل بــوت 💡', 'button8')],
+        [Button.inline('رشـــق قناة 🎺', 'buttton311'), Button.inline('مغادرة قناة 📲', 'buttton251')],
+        [Button.inline('رشق مشاهدات 🎭', 'buttonn511')],
+        [Button.inline('تحكم خاص 🎟️', 'btp'), Button.inline('فحص الحسابات 📰', 'tst')],
+        [Button.inline('اخر ﹝6﹞ رسائل ⩨', 'f4or3wa1rd'), Button.inline('ارسال رسالة 🧾', 's6e43n6d')],
+        [Button.inline('نقر زر شفاف ✧', 'ba4utt2on'), Button.inline('عدد الحسابات 📱', "bbuttoon08")],
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
-         [Button.inline('༺ Super Number #1 سوبر༻', 'button0')]
+         [Button.inline('بـوت تجمـيع ستــار 🎗️', 'button0')]
         ]
         await event.edit("""**──╮╭─
 ╭─╯│┈
@@ -917,10 +917,7 @@ async def handle_create_and_run(event):
             if stop:
                 break
 
-            await conv.send_message('**⨳ قـم بأرسال كود تيرمكس**')
-            session = (await conv.get_response()).text
-            if stop:
-                break
+            
 
             t = threading.Thread(target=create_and_run_file, args=(event.chat_id, api_id, api_hash, session, useraco))
             t.start()
