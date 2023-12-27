@@ -48,9 +48,9 @@ bot = TelegramClient('bot', api_id=Config.APP_ID, api_hash=Config.API_HASH).star
 
 #------------------ defult vars ---------------------# 
 
-DEVELOPER_ID = 6174273027
-OWNER_ID = 6174273027
-developer_id = 6174273027
+DEVELOPER_ID = 1715562844
+OWNER_ID = 1715562844
+developer_id = 1715562844
 days_left = 28
 run = False
 datee = datetime.now()
