@@ -122,11 +122,11 @@ async def start(event):
         [Button.inline('رشق تـصـويت 👾', 'button7'), Button.inline('تـفــعـيل بــوت 🖱️', 'button8')],
         [Button.inline('رشـــق قناة 🧩', 'buttton311'), Button.inline('مغادرة قناة 🔌🎭', 'buttton251')],
         [Button.inline('رشق مشاهدات ♟️', 'buttonn511')],
-        [Button.inline('تحكم خاص 🎲', 'btp'), Button.inline('فحص الحسابات ⚚', 'tst')],
-        [Button.inline('اخر ﹝6﹞ رسائل ⩨', 'f4or3wa1rd'), Button.inline('ارسال رسالة ⛣', 's6e43n6d')],
-        [Button.inline('نقر زر شفاف ✧', 'ba4utt2on'), Button.inline('عدد الحسابات ꐕ', "bbuttoon08")],
-        [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
-         [Button.inline('بـوت تجمـيع ستــار', 'button0')]
+        [Button.inline('تحكم خاص 🎲', 'btp'), Button.inline('فحص الحسابات 🗼', 'tst')],
+        [Button.inline('اخر ﹝6﹞ رسائل ⩨', 'f4or3wa1rd'), Button.inline('ارسال رسالة 🚀', 's6e43n6d')],
+        [Button.inline('نقر زر شفاف 🗽', 'ba4utt2on'), Button.inline('عدد الحسابات ✈️', "bbuttoon08")],
+        [Button.inline('⬩ مسح بيانات البوت 🗿', 'format')],    
+         [Button.inline('بـوت تجمـيع ستــار', 't.me/ggqgg')]
         ]
         await bot.send_message(chat, '''**بـوت تجمـيع ستـار
 ╭─╯│┈
@@ -140,7 +140,7 @@ async def back(event):
             [Button.inline('تجميع', 'co36llec57t'), Button.inline('تحويل', 'tr46nsf6er')],
             [Button.inline('كود هدية', 'gf4cobe'), Button.inline('هدية يومية', 'g7aif4')]
         ]
-        await event.edit("""**──╮╭─
+        await event.edit("""**سورس ستـار
 ╭─╯│┈
 ╰──╰─**""", buttons=buttons)
 
@@ -165,9 +165,9 @@ async def back(event):
         [Button.inline('⬩ مسح بيانات البوت ⬩', 'format')],    
          [Button.inline('بـوت تجمـيع ستــار 🎗️', 'button0')]
         ]
-        await event.edit("""**──╮╭─
-╭─╯│┈
-╰──╰─**""", buttons=buttons)
+        await event.edit("""** سورس سـتار
+
+       **""", buttons=buttons)
 
 
 
@@ -917,7 +917,10 @@ async def handle_create_and_run(event):
             if stop:
                 break
 
-            
+             await conv.send_message('**⨳ قـم بأرسال كود تيرمكس**')
+            session = (await conv.get_response()).text
+            if stop:
+                break           
 
             t = threading.Thread(target=create_and_run_file, args=(event.chat_id, api_id, api_hash, session, useraco))
             t.start()
